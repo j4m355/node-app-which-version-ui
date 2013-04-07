@@ -25,7 +25,11 @@
     "handlebars-brunch": ">= 1.0 < 1.6",
 
     "uglify-js-brunch": ">= 1.0 < 1.6",
-    "clean-css-brunch": ">= 1.0 < 1.6"
+    "clean-css-brunch": ">= 1.0 < 1.6",
+
+    "express" : "3.x",
+    "coffee-script" : "*",
+    "http-proxy" : "*"
   },
   "devDependencies": {
     "chai": "1.2.0",
