@@ -7,12 +7,3 @@ module.exports = class HeaderView extends View
      container: '#header-container'
      id: 'header'
      template: template
-
-    initialize: =>
-        $.bind("#Login-Here", okClicked)
-
-    okClicked: (modal)->
-        alert("OK was clicked")
-        modal.preventClose()
-
-    modal = new Backbone.BootstrapModal({content: View}).open()
