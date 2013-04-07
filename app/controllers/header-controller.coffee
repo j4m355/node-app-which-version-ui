@@ -6,11 +6,6 @@ module.exports = class HeaderController extends Controller
     	super
     	#@delegate 'click', '#login', @loginForm
 	    #@delegate 'click', '#signup', @registerForm
-    	@view = new HeaderView()	    
-
-    render: =>
-	    super
-	    @$("form").fadeIn(3000, "swing")
-	    @
+    	@view = new HeaderView()
 
 
