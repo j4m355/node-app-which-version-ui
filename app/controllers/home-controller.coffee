@@ -2,7 +2,6 @@ Controller = require 'controllers/base/controller'
 HomePageView = require 'views/home-page-view'
 AboutView = require 'views/about-view'
 LibraryView = require 'views/library-view'
-UploadView = require 'views/upload-view'
 
 module.exports = class HomeController extends Controller
     index: =>
@@ -16,10 +15,3 @@ module.exports = class HomeController extends Controller
     library: =>
         console.log "Sister Catherine"
         @view = new LibraryView()
-
-    upload: =>
-        console.log "upload"
-        @view = new UploadView()
-
-
-

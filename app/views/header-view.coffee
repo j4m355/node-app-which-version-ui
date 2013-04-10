@@ -1,7 +1,7 @@
 View = require 'views/base/view'
 template = require 'views/templates/header'
 
-{ApplicationCollection} = require '../collections/application-collection'
+
 
 module.exports = class HeaderView extends View
      autoRender: yes
@@ -12,5 +12,3 @@ module.exports = class HeaderView extends View
 
      initialize: ()->
      	super
-     	@applicationList = new ApplicationCollection()
-     	console.log @applicationList
