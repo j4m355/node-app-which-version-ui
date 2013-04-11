@@ -23,7 +23,7 @@ httpProxy.createServer((req, res, proxy) ->
     setTimeout(() -> 
       proxy.proxyRequest(req, res, {
         host: 'localhost',
-        port: 3402, 
+        port: 3403, 
         buffer: buffer
       })    
     , 5)
