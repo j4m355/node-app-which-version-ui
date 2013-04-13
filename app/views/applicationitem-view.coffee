@@ -9,7 +9,6 @@ module.exports = class ApplicationItemView extends View
 
     initialize: ()->
         super
-        console.log @model.attributes .name 
     
     render:() ->
         super
